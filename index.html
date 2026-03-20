@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Registration</title>
@@ -12,21 +12,26 @@
 <body>
     <div class="container">
         <div class="sidebar">
+            <div class="profile picture">
+                <img src="stockshop.jpg" alt="Nyondo Stock" width="100%">
+                <h3>Nyondo Stock</h3>
+            </div>
 
-            <div>
-                <a href="dashboard.html">Dashboard</a>
+            <div class="menu">
+                <h2>Explore More</h2>
+                <div>
+                    <div><a href="index.html" class="menu-btn">Home</a></div>
+                    <a href="dashboard.html" class="menu-btn">Stock Inventory</a></div>
+                <div><a href="supplier-registration.html" class="menu-btn">Suppliers</a></div>
             </div>
-            <div><a href="supplier-registration.html">Suppliers</a> 
             </div>
-            <div><a href="index.html">Home</a>
-            </div>
-        </div>
-        <div class="content">
-            <form action="" method="get">
-                <!-- section 1 -->
+            <br>
+            <div class="content">
+                <form action="" method="get">
+                    <!-- section 1 -->
 
-                <h1>Sales Registration</h1>
-                <section>
+                    <h1>Sales Registration</h1>
+                    <section>
                         <div>
                             <label for="SalesDate">Sales Date:</label>
                             <input type="date" name="" id="SalesDate">
@@ -42,12 +47,12 @@
                                 <option value="sm">Steve Medson</option>
                             </select>
                         </div>
-                </section>
+                    </section>
 
-                <h2>Customer Details</h2>
-                <!-- Section 2 -->
-                <Section>
-                    
+                    <h2>Customer Details</h2>
+                    <!-- Section 2 -->
+                    <Section>
+
                         <div>
                             <label for="Name">Name:</label>
                             <input type="text" placeholder="Enter full name">
@@ -56,32 +61,32 @@
                             <label for="Phone Number">Phone Number:</label>
                             <input type="tel" placeholder="+2567xxxxxxxx">
                         </div>
-                </section>
+                    </section>
 
-                <br>
+                    <br>
 
-                <section>
-                    <div>
-                        <label for="Email">Email:</label>
-                        <input type="email" placeholder="youremail@example.com">
-                    </div>
-                    <div>
-                        <label for="Customer Type">Customer Type:</label>
-                        <select name="" id="Customer Type">
+                    <section>
+                        <div>
+                            <label for="Email">Email:</label>
+                            <input type="email" placeholder="youremail@example.com">
+                        </div>
+                        <div>
+                            <label for="Customer Type">Customer Type:</label>
+                            <select name="" id="Customer Type">
 
-                            <option value="" disabled selected>Select customer type</option>
-                            <option value="1">Retail</option>
-                            <option value="2">Wholesale</option>
-                            <option value="3">Broker</option>
+                                <option value="" disabled selected>Select customer type</option>
+                                <option value="1">Retail</option>
+                                <option value="2">Wholesale</option>
+                                <option value="3">Broker</option>
 
-                        </select>
-                    </div>
-                </section>
-                
+                            </select>
+                        </div>
+                    </section>
 
-                <h2>Items</h2>
-                <!-- items -->
-                <section>
+
+                    <h2>Items</h2>
+                    <!-- items -->
+                    <section>
 
                         <div>
                             <label for="pdtld">Pdtld:</label>
@@ -92,15 +97,15 @@
                             <label for="quantity">Quantity:</label>
                             <input type="number" id="quantity">
                         </div>
-                        
+
                         <div>
                             <label for="unitprice">Unit Price:</label>
                             <input type="number" name="" id="unitprice">
                         </div>
-                        </section>
+                    </section>
 
-                        <br>
-                        <section>
+                    <br>
+                    <section>
                         <div>
                             <label for="pdtld">Pdtld:</label>
                             <input type="text" name="pdtld">
@@ -110,27 +115,27 @@
                             <label for="quantity">Quantity:</label>
                             <input type="number" id="quantity">
                         </div>
-                        
+
                         <div>
                             <label for="unitprice">Unit Price:</label>
                             <input type="number" name="" id="unitprice">
                         </div>
-                        </section>
+                    </section>
 
-                        <br>
-                        
-                            <!-- final bit -->
+                    <br>
 
-                            <section id="btn-section">
-                                <button type="reset">Cancel</button>
-                                <button type="submit">Submit</button>
+                    <!-- final bit -->
 
-                            </section>
-            </form>
+                    <section id="btn-section">
+                        <button type="reset">Cancel</button>
+                        <button type="submit">Submit</button>
 
-        </div>
+                    </section>
+                </form>
 
-    </div>
+            </div>
+    </div>        
+        
 </body>
 
 </html>
